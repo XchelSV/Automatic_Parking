@@ -1,0 +1,95 @@
+extends layout
+
+block content
+	.row
+		.col.s6.offset-s3
+			h3
+				| Estacionamiento Automatizado
+
+	.row
+		.col.s12.m4
+			.card
+				.card-image
+					img(src='/images/vacio.jpg')
+					span.card-title Cajón 1 Disponible
+				.card-content
+					p
+						| Presiona en "Ingresar Auto" para mostrar la ruta de entrada a seguir.
+					
+				.card-action
+					a.waves-effect.waves-light.btn(ng-click='ingresar(1)',ng-show='buttonFlag1') Ingresar Automóvil
+					a.waves-effect.waves-light.btn(ng-click='ingresar("A")',ng-hide='buttonFlag1') Sacar Automóvil
+
+
+
+		.col.s12.m4
+			.card
+				.card-image
+					img(src='/images/vacio.jpg')
+					span.card-title Cajón 2 Disponible
+				.card-content
+					p
+						| Presiona en "Ingresar Auto" para mostrar la ruta de entrada a seguir.
+					
+				.card-action
+					a.waves-effect.waves-light.btn(ng-click='ingresar(2)',ng-show='buttonFlag2') Ingresar Automóvil
+					a.waves-effect.waves-light.btn(ng-click='ingresar("B")',ng-hide='buttonFlag2') Sacar Automóvil
+
+
+		.col.s12.m4
+			.card
+				.card-image
+					img(src='/images/vacio.jpg')
+					span.card-title Cajón 3 Disponible
+				.card-content
+					p
+						| Presiona en "Ingresar Auto" para mostrar la ruta de entrada a seguir.
+					
+				.card-action
+					a.waves-effect.waves-light.btn(ng-click='ingresar(3)',ng-show='buttonFlag3') Ingresar Automóvil
+					a.waves-effect.waves-light.btn(ng-click='ingresar("C")',ng-hide='buttonFlag3') Sacar Automóvil
+
+
+	.row
+		.col.s12.m4
+			.card
+				.card-image
+					img(src='/images/vacio.jpg')
+					span.card-title Cajón 4 Disponible
+				.card-content
+					p
+						| Presiona en "Ingresar Auto" para mostrar la ruta de entrada a seguir.
+					
+				.card-action
+					a.waves-effect.waves-light.btn(ng-click='ingresar(4)',ng-show='buttonFlag4') Ingresar Automóvil
+					a.waves-effect.waves-light.btn(ng-click='ingresar("D")',ng-hide='buttonFlag4') Sacar Automóvil
+
+
+		.col.s12.m4
+			.card
+				.card-image
+					img(src='/images/vacio.jpg')
+					span.card-title Cajón 5 Disponible
+				.card-content
+					p
+						| Presiona en "Ingresar Auto" para mostrar la ruta de entrada a seguir.
+					
+				.card-action
+					a.waves-effect.waves-light.btn(ng-click='ingresar(5)',ng-show='buttonFlag5') Ingresar Automóvil
+					a.waves-effect.waves-light.btn(ng-click='ingresar("E")',ng-hide='buttonFlag5') Sacar Automóvil
+
+
+		.col.s12.m4
+			.card
+				.card-image
+					img(src='/images/vacio.jpg')
+					span.card-title Cajón 6 Disponible
+				.card-content
+					p
+						| Presiona en "Ingresar Auto" para mostrar la ruta de entrada a seguir.
+					
+				.card-action
+					a.waves-effect.waves-light.btn(ng-click='ingresar(6)',ng-show='buttonFlag6') Ingresar Automóvil
+					a.waves-effect.waves-light.btn(ng-click='ingresar("F")',ng-hide='buttonFlag6') Sacar Automóvil
+
+
